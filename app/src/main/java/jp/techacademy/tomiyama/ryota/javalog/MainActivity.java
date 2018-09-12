@@ -12,12 +12,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Human human1 = new Human("Taro Tanaka",23);
+        Human human1 = new Human("Taro Tanaka",23, "野球");
         human1.say();
+        human1.think();
 
-        Human human2 = new Human("Ichiro Taguchi", 30);
+        Human human2 = new Human("Ichiro Taguchi", 30, "サッカー");
         human2.say();
-
+        human2.think();
 
     }
 }
